@@ -1068,3 +1068,17 @@ nav a#pull {
 }
 
 
+
+circle.node {
+  cursor: pointer;
+  stroke: #5A5555;
+  stroke-width: .5px;
+}
+
+line.link {
+  fill: none;
+  stroke: #CBC2C0;
+  stroke-width: 1.5px;
+}
+
+

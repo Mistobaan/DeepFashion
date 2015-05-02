@@ -1,5 +1,5 @@
-var w = 1280,
-    h = 800,
+var w = 1000,
+    h = 600,
     node,
     link,
     root;
@@ -51,14 +51,14 @@ function update() {
       .style("fill", color);
 
   node.transition()
-      .attr("r", function(d) { return d.children ? 4.5 : Math.sqrt(d.size) / 10; });
+      .attr("r", function(d) { return d.children ? 10; });
 
   // Enter any new nodes.
   node.enter().append("svg:circle")
       .attr("class", "node")
       .attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return d.children ? 4.5 : Math.sqrt(d.size) / 10; })
+      .attr("r", function(d) { return d.children ? 10; })
       .style("fill", color)
       .on("click", click)
       .call(force.drag);
