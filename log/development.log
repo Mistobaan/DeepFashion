@@ -6777,3 +6777,4020 @@ Started GET "/" for ::1 at 2015-04-30 22:58:59 -0400
 Processing by StaticPagesController#home as HTML
   Rendered static_pages/home.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 142ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:35:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 711ms (Views: 680.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:35:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:35:16 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:35:21 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 572ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:35:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 167ms (Views: 166.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:37:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 255ms (Views: 245.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:37:19 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:37:20 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:37:21 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 10423ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:37:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 160ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:39:05 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 143ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:39:05 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:39:06 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 14380ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:39:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 209ms (Views: 208.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:39:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:39:47 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:39:48 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 13280ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:40:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 183ms (Views: 182.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:40:27 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 138ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:40:27 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:40:28 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 11686ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:40:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 186ms (Views: 185.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:41:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 145ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:41:21 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:41:22 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:41:23 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 14858ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:41:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 173ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:42:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:42:09 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:42:10 -0400
+Processing by StaticPagesController#call as HTML
+
+
+Started GET "/" for ::1 at 2015-05-01 22:47:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 622ms (Views: 590.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:47:49 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:47:49 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:47:50 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:47:52 -0400
+Processing by StaticPagesController#call as HTML
+
+
+Started GET "/" for ::1 at 2015-05-01 22:51:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 642ms (Views: 600.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:51:32 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:51:34 -0400
+Processing by StaticPagesController#call as HTML
+
+
+Started GET "/" for ::1 at 2015-05-01 22:55:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (44.2ms)
+Completed 500 Internal Server Error in 75ms
+
+NameError (undefined local variable or method `runPython_path' for #<#<Class:0x007fcc9b593c28>:0x007fcc9b573428>):
+  app/views/static_pages/home.html.erb:9:in `_app_views_static_pages_home_html_erb___936666439162289509_70258377672720'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (14.5ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (147.7ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 22:55:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 223ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 22:55:35 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 22:55:36 -0400
+Processing by StaticPagesController#call as HTML
+Completed   in 426653ms
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:03:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#call as HTML
+
+
+Started GET "/" for ::1 at 2015-05-01 23:10:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 732ms (Views: 691.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:10:29 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:30 -0400
+
+
+Started GET "/" for ::1 at 2015-05-01 23:10:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 135ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:10:34 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:10:35 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 375ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:10:35 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:11:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 139.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:11:15 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:11:17 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 588367ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/runPython" for ::1 at 2015-05-01 23:21:05 -0400
+Processing by StaticPagesController#run as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/runPython" for ::1 at 2015-05-01 23:21:05 -0400
+Processing by StaticPagesController#run as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:21:05 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 140ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:21:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:21:21 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:21:25 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 4445ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:21:29 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 143ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:22:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:22:56 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:22:57 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 5626ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:23:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:23:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 134ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:23:55 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:23:56 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 4144ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:24:00 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 139ms (Views: 138.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:25:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:25:54 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:25:57 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 10850ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:26:08 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:35:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 164ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:04 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:35:05 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 343ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:35:05 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:35:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 129ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:35:20 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:35:21 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 65ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:35:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:36:11 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 145ms (Views: 144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:36:11 -0400
+
+
+Started GET "/" for ::1 at 2015-05-01 23:36:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 132ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:12 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:13 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:36:13 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:36:13 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:36:14 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:36:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 134ms (Views: 133.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:40:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 145ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:40:45 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:40:46 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:40:47 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:40:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 143ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:18 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:50:19 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:50:23 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 117ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:23 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 168ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:50:36 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:50:37 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 158ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 136ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:50:54 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:50:55 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:50:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:51:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 133ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:51:23 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:51:24 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:51:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:53:32 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 147ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:53:32 -0400
+
+
+Started GET "/" for ::1 at 2015-05-01 23:53:35 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 124ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:53:35 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:53:36 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 64ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:53:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 150ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:53:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:53:51 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:53:52 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 165ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:53:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:56:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 138ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:39 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:56:39 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:39 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:39 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:39 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:56:40 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:56:42 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:56:42 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 158ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:56:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 142ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:56:55 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:56:56 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 100ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:56:56 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 139ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:57:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:57:54 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:57:55 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:57:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:58:19 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 146ms (Views: 144.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:58:19 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:58:20 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:58:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 152ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:59:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:59:12 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:59:14 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:59:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 149ms (Views: 148.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:59:56 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 148.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-01 23:59:56 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-01 23:59:58 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 101ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-01 23:59:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 147ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 00:00:04 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 00:00:04 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 148ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 00:00:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 00:00:16 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 00:00:17 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 102ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 00:00:17 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 150ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 00:00:20 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 99ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 00:00:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 155ms (Views: 154.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 00:00:27 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 144ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 00:00:27 -0400
+
+
+Started GET "/" for ::1 at 2015-05-02 02:54:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 675ms (Views: 647.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 02:54:36 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 02:54:45 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1846ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:54:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 147ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:55:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 02:55:43 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 02:55:45 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 130ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:55:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:58:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:38 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 02:58:39 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 140ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:58:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:58:56 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:56 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:58:57 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 02:58:57 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 02:58:58 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:58:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:59:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 02:59:38 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 02:59:39 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 02:59:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:00:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:00:02 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:00:03 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:00:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 163ms (Views: 162.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:01:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:01:09 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:01:10 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 189ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:01:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:01:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 132ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:01:21 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:01:22 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 39724ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:02:01 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:12:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 311ms (Views: 300.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:12:51 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:12:53 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 7863ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:13:00 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 145ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:13:18 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 150ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:13:19 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:13:20 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 10883ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:13:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:15:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 145ms (Views: 144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:15:39 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:15:40 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 65ms
+
+NameError (uninitialized constant StaticPagesController::Open3):
+  app/controllers/static_pages_controller.rb:29:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:15:40 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 74ms
+
+NameError (uninitialized constant StaticPagesController::Open3):
+  app/controllers/static_pages_controller.rb:29:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (98.5ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:17:28 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 104ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:17:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 158ms (Views: 157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:28 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:17:28 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:28 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:28 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:28 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:17:29 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:17:30 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 100ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:17:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 140.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:17:52 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 155ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:17:52 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:53 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:53 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:53 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:17:53 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:17:53 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:17:53 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 93ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:17:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:19:48 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 144ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:19:48 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:19:50 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 97ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:19:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:20:29 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 139ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:20:29 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:20:30 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 100ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:20:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 148ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:20:44 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:20:44 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:20:45 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 112ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:20:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 148ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:21:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:21:47 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:21:49 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 95ms
+
+NameError (undefined local variable or method `o' for #<StaticPagesController:0x007fdc7c223070>):
+  app/controllers/static_pages_controller.rb:33:in `block in call'
+  app/controllers/static_pages_controller.rb:32:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (95.7ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:21:49 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 98ms
+
+NameError (undefined local variable or method `o' for #<StaticPagesController:0x007fdc7d8820c8>):
+  app/controllers/static_pages_controller.rb:33:in `block in call'
+  app/controllers/static_pages_controller.rb:32:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (96.4ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:22:04 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 95ms
+
+IOError (not opened for reading):
+  app/controllers/static_pages_controller.rb:33:in `read'
+  app/controllers/static_pages_controller.rb:33:in `block in call'
+  app/controllers/static_pages_controller.rb:32:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (12.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (136.8ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:22:18 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 107ms
+
+NameError (undefined local variable or method `cmd' for #<StaticPagesController:0x007fdc7c545438>):
+  app/controllers/static_pages_controller.rb:36:in `block in call'
+  app/controllers/static_pages_controller.rb:32:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (107.3ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:22:40 -0400
+Processing by StaticPagesController#call as HTML
+Completed 500 Internal Server Error in 104ms
+
+NameError (undefined local variable or method `python' for #<StaticPagesController:0x007fdc7a7e8c78>):
+  app/controllers/static_pages_controller.rb:36:in `block in call'
+  app/controllers/static_pages_controller.rb:32:in `call'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (91.8ms)
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:23:20 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 89ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:23:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:23:20 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:23:21 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 92ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:23:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 151ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:26:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:26:41 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:26:42 -0400
+Processing by StaticPagesController#call as HTML
+
+
+Started GET "/" for ::1 at 2015-05-02 03:28:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 327ms (Views: 317.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/application-72048fc10a6d8c64f5aeee61cfc5a0c9.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/custom-6477064edf3565884eada059ac759792.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/assets/application-2e32439322318c151d7e4b448bde8735.js?body=1" for ::1 at 2015-05-02 03:28:59 -0400
+
+
+Started GET "/callPython" for ::1 at 2015-05-02 03:29:02 -0400
+Processing by StaticPagesController#call as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-02 03:29:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 163ms (Views: 162.1ms | ActiveRecord: 0.0ms)

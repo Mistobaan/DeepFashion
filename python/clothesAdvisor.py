@@ -94,4 +94,4 @@ class ClothesAdvisor:
 
 
 advisor = ClothesAdvisor()
-advisor.evaluateClothes('lg-4835.jpg')
+# advisor.evaluateClothes('lg-4835.jpg')
