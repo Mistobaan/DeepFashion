@@ -18,10 +18,15 @@ var vis = d3.select("#graphContainer").append("svg:svg")
 
 var tooltip = d3.select("body")
   .append("div")
+  .attr("width", "400px")
+  .attr("height", "200px")
+  .attr("background-color", "#fff")
+  .attr("border-color", "#ccc")
+  .attr("color", "#5A5555")
+  .text("a simple tooltip")
   .style("position", "absolute")
   .style("z-index", "10")
-  .style("visibility", "hidden")
-  .text("a simple tooltip");
+  .style("visibility", "hidden");
 
 root = data;
 root.fixed = true;
@@ -76,8 +81,10 @@ function update() {
         return tooltip.style("visibility", "visible");
       })
       .on("mousemove", function(){
-        return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
+        tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
         .duration(200);
+
+        return tooltip
       })
       .on("mouseout", function(){
         return tooltip.style("visibility", "hidden");
