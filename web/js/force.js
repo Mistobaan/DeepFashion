@@ -1,5 +1,5 @@
 var w = 1000,
-    h = 600,
+    h = 800,
     node,
     link,
     root;
@@ -10,14 +10,24 @@ var force = d3.layout.force()
     .linkDistance(function(d) { return d.target._children ? 80 : 30; })
     .size([w, h - 160]);
 
+
+
 var vis = d3.select("#graphContainer").append("svg:svg")
     .attr("width", w)
-    .attr("height", h);
+    .attr("height", h)
+
+var tooltip = d3.select("body")
+  .append("div")
+  .style("position", "absolute")
+  .style("z-index", "10")
+  .style("visibility", "hidden")
+  .text("a simple tooltip");
 
 root = data;
 root.fixed = true;
 root.x = w / 2;
 root.y = h / 2 - 80;
+d3.select()
 update();
 
 function update() {
@@ -32,7 +42,7 @@ function update() {
 
   // Update the links…
   link = vis.selectAll("line.link")
-      .data(links, function(d) { return d.target.id; });
+      .data(links, function(d) { return d.target.distance ? d.target.distance : d.target.id; });
 
   // Enter any new links.
   link.enter().insert("svg:line", ".node")
@@ -51,21 +61,43 @@ function update() {
       .style("fill", color);
 
   node.transition()
-      .attr("r", function(d) { return 6; }); //d.children ? 4.5 : Math.sqrt(d.size) / 10
+      .attr("r", function(d) { return size(d); }); //d.children ? 4.5 : Math.sqrt(d.size) / 10
 
   // Enter any new nodes.
   node.enter().append("svg:circle")
       .attr("class", "node")
       .attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return 6; }) //d.children ? 4.5 : Math.sqrt(d.size) / 10
+      .attr("r", function(d) { return size(d); }) //d.children ? 4.5 : Math.sqrt(d.size) / 10
       .style("fill", color)
       .on("click", click)
-      .call(force.drag);
+      .call(force.drag)
+      .on("mouseover", function(){
+        return tooltip.style("visibility", "visible");
+      })
+      .on("mousemove", function(){
+        return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
+        .duration(200);
+      })
+      .on("mouseout", function(){
+        return tooltip.style("visibility", "hidden");
+      });
 
   // Exit any old nodes.
   node.exit().remove();
 }
+
+// mouseover = function(d) {
+//   this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')
+//     .text(d.name + ": " + d.size + " loc")
+//     .style('display', null);
+// };
+
+// mouseout = function(d) {
+//   this.text.style('display', 'none');
+// };
+
+
 
 function tick() {
   link.attr("x1", function(d) { return d.source.x; })
@@ -77,9 +109,13 @@ function tick() {
       .attr("cy", function(d) { return d.y; });
 }
 
+function size(d){
+  return d._children? (d.size > 10? (d.size < 200? d.size: 100): 8) : 6;
+}
+
 // Color leaf nodes orange, and packages white or blue.
 function color(d) {
-  return d._children ? "#3182bd" : d.children ? "#d6d1d0" : "#D78A9F";
+  return d._children ? "#70374D" : d.children ? "#d6d1d0" : "#D78A9F";
 }
 
 // Toggle children on click.

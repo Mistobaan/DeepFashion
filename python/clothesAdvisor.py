@@ -94,7 +94,9 @@ class ClothesAdvisor:
 		print distance_clusters, in_clusters
 		recommended = self.getRecommended(category, in_clusters)
 		evaluation_result = {"category": category, "recommended": recommended, "distance_clusters": distance_clusters, "in_clusters": in_clusters}
-		# json.dump(evaluation_result, retsultFile)
+		
+		with open(retsultFile, 'w') as datafile:
+			json.dump(evaluation_result, datafile)
 		print evaluation_result
 		return evaluation_result
 	def getRecommended(self, category, in_clusters):
@@ -205,6 +207,3 @@ class ClothesAdvisor:
 advisor = ClothesAdvisor(["img/lg-4835.jpg"])
 
 
-
-advisor = ClothesAdvisor()
-# advisor.evaluateClothes('lg-4835.jpg')
