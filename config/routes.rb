@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
 
   get 'callPython' => 'static_pages#call'
+  get 'runPython' => 'static_pages#run'
 
   resources :users
   resources :account_activations, only: [:edit]
