@@ -4,6 +4,5 @@ def main():
 	# print "second time!"
 	# print "third time!!!"
 	print array
-	return "return from python file!!"
 
 main()
