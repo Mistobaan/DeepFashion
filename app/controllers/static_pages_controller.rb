@@ -17,18 +17,18 @@ class StaticPagesController < ApplicationController
     # file = File.read('myData.json')
     # data_hash = JSON.parse(file)
     # puts data_hash
-    puts 
-    puts "Trying open3 here"
-    
-    # attempts open3
-    Open3.popen3(%{python python/print.py}) {|stdin, stdout, stderr|
-      output = stdout.read()
-      error = stderr.read()
-      # FIXME: don't want to *separate out* stderr like this
-      repr = "$ python python/print.py\n#{output}"
-      puts repr
-    }
 
+    results = `python python/clothesAdvisor.py`
+    puts results
+
+    # attempts open3
+    # Open3.popen3(%{python python/print.py}) {|stdin, stdout, stderr|
+    #   output = stdout.read()
+    #   error = stderr.read()
+    #   # FIXME: don't want to *separate out* stderr like this
+    #   repr = "$ python python/print.py\n#{output}"
+    #   puts repr
+    # }
   	redirect_to root_url
   end 
 
