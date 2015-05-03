@@ -1,13 +1,7 @@
 // draw bar chart
 
-function isWhite(d){
-  return d[0]>250 && d[1]>250 && d[2]>250
-}
-function arraySwap(array,i,j){
-  var temp = array[i];
-  array[i] = array[j];
-  array[j] = temp;
-}
+function isWhite(d){return d[0]>250 && d[1]>250 && d[2]>250;}
+function arraySwap(array,i,j){var temp = array[i];array[i] = array[j];array[j] = temp;}
 
 function drawOne(id,colors,frequencies){
   
@@ -77,9 +71,6 @@ function drawOne(id,colors,frequencies){
   var bar = svg.selectAll(".bar").data(frequency).enter();
 
   bar.append("rect")
-  /*.attr("fill", function(d,i){
-    return "rgb("+Math.round(color[i][0])+","+Math.round(color[i][1])+","+Math.round(color[i][2])+")";
-  })*/
   .attr("fill","#5A5555")
   .attr("class","bar")
   .attr("height",function(d,i){return isWhite(color[i])
