@@ -10,7 +10,6 @@ function arraySwap(array,i,j){
 }
 
 function drawOne(id,colors,frequencies){
-  
   var colorArray = colors.slice();
   var frequencyArray = frequencies.slice();
 //preprocess color and frequency to the hightest five
@@ -108,151 +107,143 @@ function drawOne(id,colors,frequencies){
 }
 
 
+$(function(){
+  // draw tree
+
+  var w = 800,
+      h = 800,
+      node,
+      link,
+      root;
+
+  var force = d3.layout.force()
+      .on("tick", tick)
+      .charge(function(d) { return d._children ? -d.size / 100 : -30; })
+      .linkDistance(function(d) { return d.target._children ? 80 : 30; })
+      .size([w, h - 160]);
 
 
 
+  var treeGraph = d3.select("#machineLearning")
+      .append("div").attr("id", "graphContainer");
+
+  var vis = treeGraph
+      .append("svg:svg")
+      .attr("width", w)
+      .attr("height", h);
+
+
+  var tooltip = d3.select("#machineLearning")
+    .append("div")
+    .attr("id", "tooltip")
+    .style("visibility", "hidden");;
+
+  var tooltipH = tooltip.append("h3");
+
+  var imgContainer = tooltip.append("div")
+    .attr("id", "imgContainer");
+
+  var barContainer = tooltip.append("div")
+    .attr("id", "barContainer");
 
 
 
+  root = data;
+  root.fixed = true;
+  root.x = w / 2;
+  root.y = h / 2 - 80;
+  d3.select()
+  update();
+
+  function update() {
+    var nodes = flatten(root),
+        links = d3.layout.tree().links(nodes);
+
+    // Restart the force layout.
+    force
+        .nodes(nodes)
+        .links(links)
+        .start();
+
+    // Update the links…
+    link = vis.selectAll("line.link")
+        .data(links, function(d) { return d.target.distance ? d.target.distance : d.target.id; });
+
+    // Enter any new links.
+    link.enter().insert("svg:line", ".node")
+        .attr("class", "link")
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    // Exit any old links.
+    link.exit().remove();
+
+    // Update the nodes…
+    node = vis.selectAll("circle.node")
+        .data(nodes, function(d) { return d.id; })
+        .style("fill", color);
+
+    node.transition()
+        .attr("r", function(d) { return size(d); }); //d.children ? 4.5 : Math.sqrt(d.size) / 10
+
+    // Enter any new nodes.
+    node.enter().append("svg:circle")
+        .attr("class", "node")
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; })
+        .attr("r", function(d) { return size(d); }) //d.children ? 4.5 : Math.sqrt(d.size) / 10
+        .style("fill", color)
+        .on("click", click)
+        .call(force.drag)
+        .on("mouseover", function(d){
+          d3.select(this).attr("r", function(d) { return 2 * size(d);  });
+          return tooltip.style("visibility", "visible");
+        })
+        .on("mousemove", function(d){
+          // tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
+          // .duration(200);
+
+          if (d.children){
+            id = "bar" + d.name;
+            frequency = d.distribution;
+            colorDist = d.color;
+            tooltipH.html(d.name.toUpperCase());
+            imgContainer.html("");
+            barContainer.html("");
+            drawOne(id,colorDist,frequency);
+
+          }
+          else {
+            category = d.category;
+            id = "bar" + d.name;
+            frequency = d.distribution;
+            colorDist = d.color;
+
+            tooltipH.html(d.category? d.category.toUpperCase(): d.name.toUpperCase());
+            imgRoot = "http://www.deepfashion.org/image/lg-";
+            imgEnd = ".jpg";
+            imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>");
+            barContainer.html("");
+            drawOne(id,colorDist,frequency); 
+          }
+          return tooltip;
+        
+        })
+        .on("mouseout", function(d){
+          d3.select(this).attr("r", function(d) { return size(d);  });
+
+          return tooltip.style("visibility", "hidden");
+        });
+
+    // Exit any old nodes.
+    node.exit().remove();
+  }
+  console.log("end of js");
+});
 
 
-// draw tree
-
-var w = 800,
-    h = 800,
-    node,
-    link,
-    root;
-
-var force = d3.layout.force()
-    .on("tick", tick)
-    .charge(function(d) { return d._children ? -d.size / 100 : -30; })
-    .linkDistance(function(d) { return d.target._children ? 80 : 30; })
-    .size([w, h - 160]);
-
-
-
-var treeGraph = d3.select("#machineLearning")
-    .append("div").attr("id", "graphContainer");
-
-var vis = treeGraph
-    .append("svg:svg")
-    .attr("width", w)
-    .attr("height", h);
-
-
-var tooltip = d3.select("#machineLearning")
-  .append("div")
-  .attr("id", "tooltip")
-  .style("visibility", "hidden");;
-
-var tooltipH = tooltip.append("h3");
-
-var imgContainer = tooltip.append("div")
-  .attr("id", "imgContainer");
-
-var barContainer = tooltip.append("div")
-  .attr("id", "barContainer");
-
-
-
-root = data;
-root.fixed = true;
-root.x = w / 2;
-root.y = h / 2 - 80;
-d3.select()
-update();
-
-function update() {
-  var nodes = flatten(root),
-      links = d3.layout.tree().links(nodes);
-
-  // Restart the force layout.
-  force
-      .nodes(nodes)
-      .links(links)
-      .start();
-
-  // Update the links…
-  link = vis.selectAll("line.link")
-      .data(links, function(d) { return d.target.distance ? d.target.distance : d.target.id; });
-
-  // Enter any new links.
-  link.enter().insert("svg:line", ".node")
-      .attr("class", "link")
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
-
-  // Exit any old links.
-  link.exit().remove();
-
-  // Update the nodes…
-  node = vis.selectAll("circle.node")
-      .data(nodes, function(d) { return d.id; })
-      .style("fill", color);
-
-  node.transition()
-      .attr("r", function(d) { return size(d); }); //d.children ? 4.5 : Math.sqrt(d.size) / 10
-
-  // Enter any new nodes.
-  node.enter().append("svg:circle")
-      .attr("class", "node")
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return size(d); }) //d.children ? 4.5 : Math.sqrt(d.size) / 10
-      .style("fill", color)
-      .on("click", click)
-      .call(force.drag)
-      .on("mouseover", function(d){
-        d3.select(this).attr("r", function(d) { return 2 * size(d);  });
-        return tooltip.style("visibility", "visible");
-      })
-      .on("mousemove", function(d){
-        // tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
-        // .duration(200);
-
-        if (d.children){
-          id = "bar" + d.name
-          frequency = d.distribution
-          colorDist = d.color
-          tooltipH.html(d.name.toUpperCase())
-          imgContainer.html("")
-          barContainer.html("")
-          drawOne(id,colorDist,frequency) 
-
-        }
-        else {
-          category = d.category
-          id = "bar" + d.name
-          frequency = d.distribution
-          colorDist = d.color
-
-          tooltipH.html(d.category? d.category.toUpperCase(): d.name.toUpperCase())
-          imgRoot = "http://www.deepfashion.org/image/lg-"
-          imgEnd = ".jpg"
-          imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
-          barContainer.html("")
-          drawOne(id,colorDist,frequency) 
-
-
-          
-          
-
-        }
-
-        return tooltip
-      })
-      .on("mouseout", function(d){
-        d3.select(this).attr("r", function(d) { return size(d);  });
-
-        return tooltip.style("visibility", "hidden");
-      });
-
-  // Exit any old nodes.
-  node.exit().remove();
-}
 
 // mouseover = function(d) {
 //   this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')

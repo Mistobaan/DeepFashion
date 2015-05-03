@@ -611,7 +611,7 @@ a:focus {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
-	background-image: url(../img/icons/back-to-top.png);
+	background-image: image-url("back-to-top.png");
 	background-repeat: no-repeat;
 	background-position: 50% 48%;
 	background-color:rgba(123, 123, 123, 0.65);	
