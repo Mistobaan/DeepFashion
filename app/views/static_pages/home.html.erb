@@ -38,8 +38,6 @@
 		============================================= -->
 		
 		<div id="content_wrapper">
-		
-
 			<!-- INTRO
 			============================================= -->
 			<section id="intro">
@@ -83,12 +81,12 @@
 						<p id="database_paragraph">Select your favorite outfit from our gallery</p>
 					</div>
      				<div id="banner" class="photobanner">
-						<%= image_tag("http://deepfashion.org/image/lg-517.jpg",:class=>"img-rounded") %>
-						<%= image_tag("http://deepfashion.org/image/lg-1006.jpg",:class=>"img-rounded") %>
-						<%= image_tag("http://deepfashion.org/image/lg-2.jpg",:class=>"img-rounded") %>
-						<%= image_tag("http://deepfashion.org/image/lg-603.jpg",:class=>"img-rounded") %>
-						<%= image_tag("http://deepfashion.org/image/lg-980.jpg",:class=>"img-rounded") %>
-						<%= image_tag("http://deepfashion.org/image/lg-919.jpg",:class=>"img-rounded") %>
+						<%= image_tag("http://deepfashion.org/image/lg-517.jpg",:class=>"img-rounded",:id=>"first") %>
+						<%= image_tag("http://deepfashion.org/image/lg-1006.jpg",:class=>"img-rounded",:id=>"second") %>
+						<%= image_tag("http://deepfashion.org/image/lg-2.jpg",:class=>"img-rounded",:id=>"third") %>
+						<%= image_tag("http://deepfashion.org/image/lg-603.jpg",:class=>"img-rounded",:id=>"fourth") %>
+						<%= image_tag("http://deepfashion.org/image/lg-980.jpg",:class=>"img-rounded",:id=>"fifth") %>
+						<%= image_tag("http://deepfashion.org/image/lg-919.jpg",:class=>"img-rounded",:id=>"sixth") %>
 					</div>	
 					<div id="search_section">
 						<%= simple_form_for @photo, :remote => true do |f| %>
