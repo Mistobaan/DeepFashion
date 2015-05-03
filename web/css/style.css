@@ -171,6 +171,7 @@ a:focus {
 /*	 Feature Section Basic Styles
 /*------------------------------------------*/ 
    
+
 .feature_image .img-responsive { 
 	display: inline-block; 
 	margin: 0 auto;
@@ -445,6 +446,9 @@ a:focus {
    04. FEATURES LIST
    ========================================================================== */
 
+#features {
+	background-color: #fff; 
+}
 #features .row {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -505,9 +509,6 @@ a:focus {
 	font-family: 'Raleway', sans-serif;
 	line-height: 24px;
 }
-
-
-
 
 
 
@@ -631,7 +632,34 @@ nav a#pull {
     display: none;  
 }
 
+#machineLearning{
+	display: block;
+	padding: auto;
+	width: 1000px;
+	height: 800px;
+}
 
+#graphContainer{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 0px;
+}
+
+#tooltip {
+	display: inline-block;
+	width : 240px;
+	color: #5a5555; 
+	z-index: 10;
+	position: absolute;
+	left: 800px;
+	padding: 5%;
+}
+
+#tooltip h2{
+	color: #5a5555; 
+
+}
 
 circle.node {
   cursor: pointer;
@@ -644,6 +672,27 @@ line.link {
   fill: none;
   stroke: #CBC2C0;
   stroke-width: 1.5px;
+}
+
+#imgContainer{
+	display: block;
+
+}
+
+
+
+#imgContainer img{
+	display: block;
+	margin: 5px;
+	width: 240px;
+	border-radius: 5px;
+}
+
+#barContainer {
+	margin: 5px;
+	display: block;
+	width: 240px;
+
 }
 
 

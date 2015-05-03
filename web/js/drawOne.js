@@ -10,7 +10,7 @@ function drawOne(id,color,frequency){
 	//set SVG configuration
 	var svgConf = {
 		//height and width
-		h:300,w:150,xPad:20,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+		h:150,w:150,xPad:20,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
 	};
 	var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
 
