@@ -2,7 +2,6 @@ class StaticPagesController < ApplicationController
   require 'open3'
 
   def home
-  	
   end
 
   def call
