@@ -146,7 +146,7 @@ var tooltip = d3.select("#machineLearning")
   .attr("id", "tooltip")
   .style("visibility", "hidden");;
 
-var tooltipH = tooltip.append("h2");
+var tooltipH = tooltip.append("h3");
 
 var imgContainer = tooltip.append("div")
   .attr("id", "imgContainer");
@@ -231,13 +231,16 @@ function update() {
           frequency = d.distribution
           colorDist = d.color
 
-          tooltipH.html(category)
-
+          tooltipH.html(d.category? d.category: d.name)
           imgRoot = "http://www.deepfashion.org/image/lg-"
           imgEnd = ".jpg"
           imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
+
+
+          
+          
 
         }
 
