@@ -656,8 +656,9 @@ nav a#pull {
 	padding: 5%;
 }
 
-#tooltip h2{
+#tooltip h3{
 	color: #5a5555; 
+	text-align: center;
 
 }
 
