@@ -1,13 +1,16 @@
 // alert("success!");
+$('#image').empty();
+$('#recommendations').empty();
 $('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:id=>'uploaded')) %>");
-// <% @list.each do |item| %>
-	// $('#image').append("<%= escape_javascript(image_tag(item['media']['images'][0]['mediumUrl'])) %>");
-// <% end %>
 
-
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
+$('#recommendations').append('<div class="features_title"><h1 id = "recom">Recommendations</h1></div>');
+// $('#recommendations').append("<%= escape_javascript (image_tag('https://secure-i6.ztat.net//large/JA/22/2O/0F/ZA/11/JA222O0FZ-A11@14.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-10000.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-91.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-59.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-88.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-10002.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-87.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-201.jpg',:class=>'match')) %>");
+$('#recommendations').append("<%= escape_javascript (image_tag('http://deepfashion.org/image/lg-433.jpg',:class=>'match')) %>");
 

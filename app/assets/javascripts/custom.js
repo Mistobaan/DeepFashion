@@ -38,6 +38,8 @@
 
 	});
 	
+
+
 	
 	/*----------------------------------------------------*/
 	/*	Scroll Navbar
@@ -399,6 +401,20 @@
 		});
 		
 	});
+
+
+	$(document).ready(function() {
+		
+		"use strict";	
+
+		$('#testYours').click(function(ev) {
+			$('#search-section').toggleClass("invisibleClass");
+
+			// $('#search_section').removeClass("in").addClass("collapse");
+			// $('#navigation-menu').removeClass("open");				
+		});			
+	});
+	
 	
 	function valid_email_address(email) {
 		var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);

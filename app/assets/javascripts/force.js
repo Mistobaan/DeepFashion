@@ -4,24 +4,26 @@
 $(function(){
 
 // var first = ["65", "67", "68", "69", "72", "74", "93", "96", "97", "98", "99", "101", "102", "103", "106", "107", "108", "109", "316", "512", "513", "515", "517", "518", "520", "521", "522", "523", "524", "525"];
-var hash = {"first":["65", "67", "68", "72", "74","93","96","97","98","99"],"third":["1", "2", "4", "5", "6", "45","52","59","77","78"],"fourth":["8", "39", "46", "48", "49", "56","136","137","138","140"],"fifth":["28", "32", "35", "40", "41", "42","43","44","51","60","79"],"sixth":["47", "53", "58", "156", "157", "158", "159","160","161","163"]};
+var hash = {"first":["65", "67", "68", "72", "74","93","96","97","98","99"],"third":["1", "2", "4", "5", "6", "45","52","59","77","78"],"fourth":["8", "39", "46", "48", "49", "56","136","137","138","140"],"sixth":["28", "32", "35", "40", "41", "42","43","44","51","60","79"],"fifth":["47", "53", "58", "156", "157", "158", "159","160","161","163"]};
   // for adding images
 
 $(".img-rounded").on('click',function(e){
   e.preventDefault();
   $('#image').empty();
+  $('#recommendations').empty();
   var $element = $(this);
   var id = $element.attr('id');
   addImages(id,hash);
 });
 
 function addImages(id,list){
-  for (i = 0;i<5;i++){
+  $('#recommendations').append('<div class="features_title"><h1 id = "recom">Recommendations</h1></div>');
+  for (i = 0;i<8;i++){
     address = 'http://deepfashion.org/image/lg-'.concat(list[id][i],'.jpg');
     var img = document.createElement("img");
     img.src = address;
     img.className = "match";
-    $('#image').append(img);
+    $('#recommendations').append(img);
   }
 }
 
