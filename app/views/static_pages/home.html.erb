@@ -10,18 +10,13 @@
 </p> -->
 
 <body>
-	
-	
 		<!-- HEADER
 		============================================= -->
 		<header id="header">		
 			<div class="navbar navbar-fixed-top">	
 				<div class="container">
-				
-					
 					<!-- Navigation Bar -->
 					<div class="navbar-header">
-					
 						<!-- Responsive Menu -->
 						<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu">
 							<span class="sr-only">Toggle navigation</span> 
@@ -31,7 +26,8 @@
 						</button>
 						
 						<!-- Logo Image -->
-						<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" role="banner"></a>
+						<a class="navbar-brand" href="#"><%= image_tag("logo.png", :alt=>"logo",:role=>"banner")%></a>
+
 						
 					</div>	<!-- End Navigation Bar -->
 					
@@ -100,13 +96,7 @@
 					</div>	<!-- End row -->					
 				</div>	  <!-- End container -->
 			</section>	<!-- END FEATURES LIST -->
-			
-			
-			
-			
-
-			
-			
+					
 			<!-- FOOTER
 			============================================= -->
 			<footer id="footer">
@@ -118,15 +108,13 @@
 						<div id="footer_icons" class="col-md-12 text-center">																	
 							<ul class="footer-socials clearfix">
 								<li><a class="foo_social ico-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="foo_social ico-twitter" href="#"><i class="fa fa-twitter"></i></a></li>	
+								<li><a class="foo_social ico-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a class="foo_social ico-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
 								<li><a class="foo_social ico-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>					
 
 							</ul>
 						</div>	 <!-- End Footer Social Icons -->	
 					</div>
-				
-				
 					<!-- Footer Copy-->
 					<div class="row">	
 						<div id="footer_copy" class="col-sm-12 text-center">	
@@ -140,3 +128,10 @@
 			
 	
 		</div>	<!-- END CONTENT WRAPPER -->
+
+
+		<%= simple_form_for @photo do |f| %>
+		  <%= f.label :name %>
+		  <%= f.file_field :photo_url %>
+		  <%= f.button :submit %>
+		<% end %>

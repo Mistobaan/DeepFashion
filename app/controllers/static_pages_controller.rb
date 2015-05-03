@@ -2,6 +2,7 @@ class StaticPagesController < ApplicationController
   require 'open3'
 
   def home
+    @photo = Photo.new
   end
 
   def call
