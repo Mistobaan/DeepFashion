@@ -1,4 +1,55 @@
-// draw bar chart
+
+
+
+$(function(){
+  // draw tree
+
+  var w = 800,
+      h = 800,
+      node,
+      link,
+      root;
+
+  var force = d3.layout.force()
+      .on("tick", tick)
+      .charge(function(d) { return d._children ? -d.size / 100 : -30; })
+      .linkDistance(function(d) { return d.target._children ? 80 : 30; })
+      .size([w, h - 160]);
+
+
+
+  var treeGraph = d3.select("#machineLearning")
+      .append("div").attr("id", "graphContainer");
+
+  var vis = treeGraph
+      .append("svg:svg")
+      .attr("width", w)
+      .attr("height", h);
+
+
+  var tooltip = d3.select("#machineLearning")
+    .append("div")
+    .attr("id", "tooltip")
+    .style("visibility", "hidden");;
+
+  var tooltipH = tooltip.append("h3");
+
+  var imgContainer = tooltip.append("div")
+    .attr("id", "imgContainer");
+
+  var barContainer = tooltip.append("div")
+    .attr("id", "barContainer");
+
+
+
+  root = data;
+  root.fixed = true;
+  root.x = w / 2;
+  root.y = h / 2 - 80;
+  d3.select()
+  update();
+
+  // draw bar chart
 
 function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
@@ -106,54 +157,15 @@ function drawOne(id,colors,frequencies){
   .attr("y", svgConf.h-svgConf.yPad-svgConf.brickPad);
 }
 
+  function tick() {
+  link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
 
-$(function(){
-  // draw tree
-
-  var w = 800,
-      h = 800,
-      node,
-      link,
-      root;
-
-  var force = d3.layout.force()
-      .on("tick", tick)
-      .charge(function(d) { return d._children ? -d.size / 100 : -30; })
-      .linkDistance(function(d) { return d.target._children ? 80 : 30; })
-      .size([w, h - 160]);
-
-
-
-  var treeGraph = d3.select("#machineLearning")
-      .append("div").attr("id", "graphContainer");
-
-  var vis = treeGraph
-      .append("svg:svg")
-      .attr("width", w)
-      .attr("height", h);
-
-
-  var tooltip = d3.select("#machineLearning")
-    .append("div")
-    .attr("id", "tooltip")
-    .style("visibility", "hidden");;
-
-  var tooltipH = tooltip.append("h3");
-
-  var imgContainer = tooltip.append("div")
-    .attr("id", "imgContainer");
-
-  var barContainer = tooltip.append("div")
-    .attr("id", "barContainer");
-
-
-
-  root = data;
-  root.fixed = true;
-  root.x = w / 2;
-  root.y = h / 2 - 80;
-  d3.select()
-  update();
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+  }
 
   function update() {
     var nodes = flatten(root),
@@ -240,34 +252,7 @@ $(function(){
     // Exit any old nodes.
     node.exit().remove();
   }
-  console.log("end of js");
-});
-
-
-
-// mouseover = function(d) {
-//   this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')
-//     .text(d.name + ": " + d.size + " loc")
-//     .style('display', null);
-// };
-
-// mouseout = function(d) {
-//   this.text.style('display', 'none');
-// };
-
-
-
-function tick() {
-  link.attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
-
-  node.attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
-}
-
-function size(d){
+  function size(d){
   return d._children? (d.size > 10? (d.size < 200? d.size: 100): 8) : 6;
 }
 
@@ -302,3 +287,22 @@ function flatten(root) {
   root.size = recurse(root);
   return nodes;
 }
+});
+
+
+
+// mouseover = function(d) {
+//   this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')
+//     .text(d.name + ": " + d.size + " loc")
+//     .style('display', null);
+// };
+
+// mouseout = function(d) {
+//   this.text.style('display', 'none');
+// };
+
+
+
+
+
+
