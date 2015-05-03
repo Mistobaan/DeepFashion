@@ -6,7 +6,7 @@ $(function(){
 // var first = ["65", "67", "68", "69", "72", "74", "93", "96", "97", "98", "99", "101", "102", "103", "106", "107", "108", "109", "316", "512", "513", "515", "517", "518", "520", "521", "522", "523", "524", "525"];
 var first = {"first":["65", "67", "68", "72", "74"]};
 var second = {"second":["995", "1006", "1012"]};
-var third = {"third":["1", "2", "4", "5", "6", "45"];
+var third = {"third":["1", "2", "4", "5", "6", "45"]};
 var fourth = ["8", "39", "46", "48", "49", "56"];
 var fifth = ["28", "32", "35", "40", "41", "42"];
 var sixth = ["47", "53", "58", "156", "157", "158", "159"];
@@ -17,18 +17,19 @@ $(".img-rounded").on('click',function(e){
   var $element = $(this);
   var id = $element.attr('id');
   for (i = 0;i<5;i++){
-
     address = 'http://deepfashion.org/image/lg-'.concat(first[id][i],'.jpg');
     var img = document.createElement("img");
     img.src = address;
 
     $('#image').append(img);
   }
-
   // alert($element);
   // alert($element.attr('id'));
 });
 
+function addImages(id,list){
+
+}
 
 
 
