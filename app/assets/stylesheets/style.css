@@ -461,6 +461,16 @@ a:focus {
 	color: rgb(90, 85, 85);
 	text-transform: uppercase;
 } 
+
+.features_title p{
+	width: 80%;
+	font-size: 18px;
+	color: rgb(90, 85, 85);
+	text-align: left;
+	margin: auto;
+	margin-bottom: 40px;
+
+}
    
 /*------------------------------------------*/
 /*	  Feature Box
