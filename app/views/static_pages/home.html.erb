@@ -142,6 +142,6 @@
 
 		<%= simple_form_for @photo do |f| %>
 		  <%= f.label :name %>
-		  <%= f.input :username %>
+		  <%= f.file_field :photo_url %>
 		  <%= f.button :submit %>
 		<% end %>
