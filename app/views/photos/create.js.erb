@@ -1,5 +1,11 @@
-alert("success!");
-$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url)) %>");
+// alert("success!");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:id=>'uploaded')) %>");
 // <% @list.each do |item| %>
 	// $('#image').append("<%= escape_javascript(image_tag(item['media']['images'][0]['mediumUrl'])) %>");
 // <% end %>
+
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url,:class=>'match')) %>");
