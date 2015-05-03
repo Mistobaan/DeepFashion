@@ -219,7 +219,7 @@ function update() {
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
-          tooltipH.html(d.name)
+          tooltipH.html(d.name.toUpperCase())
           imgContainer.html("")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
@@ -231,7 +231,7 @@ function update() {
           frequency = d.distribution
           colorDist = d.color
 
-          tooltipH.html(d.category? d.category: d.name)
+          tooltipH.html(d.category? d.category.toUpperCase(): d.name.toUpperCase())
           imgRoot = "http://www.deepfashion.org/image/lg-"
           imgEnd = ".jpg"
           imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
