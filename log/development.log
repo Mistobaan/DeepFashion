@@ -77592,3 +77592,91 @@ Started GET "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20.jpg" for ::1 at 
 
 Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 06:23:41 -0700
 >>>>>>> b9f40a04145472a0a6d5cc9133039f88e3c9e037
+
+
+Started GET "/" for ::1 at 2015-05-03 06:25:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (503.1ms)
+Completed 200 OK in 2405ms (Views: 2395.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-bcddf81c5f63439450c0cf950f76b87d.css?body=1" for ::1 at 2015-05-03 06:26:00 -0400
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-05-03 06:26:01 -0400
+
+
+Started GET "/assets/force-096093d63222d27b47317b1ce97dc534.js?body=1" for ::1 at 2015-05-03 06:26:01 -0400
+
+
+Started GET "/assets/application-577cbafe0be9d5dc9ca6f1e67918b55a.js?body=1" for ::1 at 2015-05-03 06:26:01 -0400
+
+
+Started GET "/assets/style-e3c3d732f572f949960aa1478865adda.css?body=1" for ::1 at 2015-05-03 06:26:01 -0400
+
+
+Started HEAD "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20@2x.jpg" for ::1 at 2015-05-03 06:26:01 -0400
+
+ActionController::RoutingError (No route matches [HEAD] "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20@2x.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lydiatang/.rvm/gems/ruby-2.2.1/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lydiatang/.rvm/gems/ruby-2.2.1/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (163.6ms)
+
+
+Started HEAD "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b@2x.png" for ::1 at 2015-05-03 06:26:01 -0400
+
+ActionController::RoutingError (No route matches [HEAD] "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b@2x.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lydiatang/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lydiatang/.rvm/gems/ruby-2.2.1/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lydiatang/.rvm/gems/ruby-2.2.1/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (85.6ms)
