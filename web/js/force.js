@@ -3,6 +3,11 @@
 function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
 }
+function arraySwap(array,i,j){
+  var temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+}
 
 function drawOne(id,colors,frequencies){
   
@@ -22,6 +27,26 @@ function drawOne(id,colors,frequencies){
     colorArray.splice(maxPos,1);
     frequency.push(frequencyArray[maxPos]);
     frequencyArray.splice(maxPos,1);
+  }
+
+    //sort 5 elements in terms of color
+  colorDist = function(c1,c2){
+    return Math.pow(c1[0]-c2[0],2) + Math.pow(c1[1]-c2[1],2) + Math.pow(c1[2]-c2[2],2);
+  };
+  var prevColor = [255,255,255];
+  for(var i = 0; i < 5 - 1; i++){
+    var minPos = i;
+    var minDist = colorDist(color[minPos],prevColor);
+    for(var j = i+1; j < 5; j++){
+      var dist = colorDist(color[j],prevColor);
+      if(dist < minDist){
+        minDist = dist;
+        minPos = j;
+      }
+    }
+    arraySwap(color,i,minPos);
+    arraySwap(frequency,i,minPos);
+    prevColor = color[i];
   }
 
   //set SVG configuration
@@ -67,12 +92,13 @@ function drawOne(id,colors,frequencies){
                   : svgConf.h-svgConf.yPad-yScale(d);});
 
   //draw block
-  var block = svg.selectAll("block").data(color).enter();
+  var block = svg.selectAll(".block").data(color).enter();
 
   block.append("rect")
   .attr("fill",function(d){
     return "rgb("+Math.round(d[0])+","+Math.round(d[1])+","+Math.round(d[2])+")"
   })
+  .style("stroke","#CCCCCC")
   .attr("height",xScale.rangeBand)
   .attr("width",xScale.rangeBand)
   .attr("x",function(d,i){
