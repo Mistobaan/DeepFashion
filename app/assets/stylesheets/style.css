@@ -58,7 +58,7 @@ Tags: responsive, html5 template, one page, landing page, mobile, application, b
 	margin:-100px 0 0 -100px;
 	width:200px;
 	height:200px;
-	background-image: image-url(loader.gif);
+	background-image: url(../img/icons/loader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 75px 75px;
@@ -76,15 +76,15 @@ Tags: responsive, html5 template, one page, landing page, mobile, application, b
 }
 
 #statistic-banner { 
-	background-image: image-url("statistic-banner.jpg"); 
+	background-image: url(../img/parallax/statistic-banner.jpg); 
 }
 
 #call_to_action { 
-	background-image: image-url("call-to-action.jpg"); 
+	background-image: url(../img/parallax/call-to-action.jpg); 
 }
 
 #video { 
-	background-image: imge-url("video_banner.jpg"); 
+	background-image: url(../img/parallax/video_banner.jpg); 
 }
 
 /*------------------------------------------*/
@@ -171,6 +171,7 @@ a:focus {
 /*	 Feature Section Basic Styles
 /*------------------------------------------*/ 
    
+
 .feature_image .img-responsive { 
 	display: inline-block; 
 	margin: 0 auto;
@@ -445,9 +446,12 @@ a:focus {
    04. FEATURES LIST
    ========================================================================== */
 
+#features {
+	background-color: #fff; 
+}
 #features .row {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }  
    
 .features_title h1 {
@@ -456,7 +460,6 @@ a:focus {
 	margin-bottom: 40px;
 	color: rgb(90, 85, 85);
 	text-transform: uppercase;
-
 } 
    
 /*------------------------------------------*/
@@ -506,445 +509,6 @@ a:focus {
 	line-height: 24px;
 }
 
-
-
-/* ==========================================================================
-   05. CALL TO ACTION
-   ========================================================================== */
-
-#call_to_action {
-	padding-top: 50px;
-}   
-
-#call_to_action .row {
-	padding-bottom: 50px;
-}
-
-/*------------------------------------------*/
-/*	 Call-To-Action Slogan
-/*------------------------------------------*/  
-
-#cta_slogan h2 {
-	color: #fff;
-	font-weight: 700;
-	margin-bottom: 2px;
-}
-
-#cta_slogan h2 span {
-	color: #19acca;
-}
-
-#cta_slogan p {
-	color: #fff;
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;	
-	line-height: 26px;
-	margin-bottom: 0;
-}
-
-#cta_slogan p span {
-	color: #19acca;
-	font-weight: 700;
-}
-
-/*------------------------------------------*/
-/*	 Call-To-Action Button
-/*------------------------------------------*/  
-
-#cta_button a {
-	margin-top: 5px;
-}
-
-
-
-/* ==========================================================================
-   06. FEATURE ONE
-   ========================================================================== */
-
-#feature_one .row {
-	padding-top: 120px;
-	padding-bottom: 100px;
-} 
-
-/*------------------------------------------*/
-/*	 Feature One Description
-/*------------------------------------------*/	
-
-#feature_1_description {
-	margin-top: 100px;
-}
-
-
-
-/* ==========================================================================
-   07. FEATURE TWO
-   ========================================================================== */
-
-#feature_two .row {
-	padding-top: 120px;
-	padding-bottom: 120px;
-}   
-
-/*------------------------------------------*/
-/*	 Feature Two Description
-/*------------------------------------------*/	
-
-#feature_2_description {
-	margin-top: 60px;
-}
-
-
-
-/* ==========================================================================
-   08. STATISTIC BANNER
-   ========================================================================== */
-
-#statistic-holder {
-	padding-top: 65px;
-	padding-bottom: 65px;
-} 
-
-/*------------------------------------------*/
-/*	  Statistic Banner Content
-/*------------------------------------------*/ 
-
-.statistic-block {
-	text-align: center;
-}
-
-.statistic-icon {
-	color: #19acca;
-	font-size: 70px;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 60px;	
-}
-
-.statistic-number {
-	color: #fff;
-	font-size: 70px;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 70px;
-	font-weight: 900;
-}
-
-.statistic-text {
-	color: #fff;
-	font-size: 18px;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-}
- 
-
-
-/* ==========================================================================
-   09. FEATURE THREE
-   ========================================================================== */
-
-#feature_three .row {
-	padding-top: 120px;
-	padding-bottom: 80px;
-}   
-
-/*------------------------------------------*/
-/*	 Feature Three Description
-/*------------------------------------------*/	
-
-#feature_3_description {
-	margin-top: 90px;
-}
-
-/*------------------------------------------*/
-/*	  Feature List Content
-/*------------------------------------------*/
-
-#feature_three_list {
-	margin-top: 35px;
-}
-
-.list-item {
-	margin-bottom: 18px;
-}
-
-.list-item i {
-	color: #222;
-	margin-right: 10px;
-	font-size: 17px;
-}
-
-.list-item h5 {
-	color: #222;
-	font-size: 17px;
-	font-weight: 500;
-}
-
-
-
-/* ==========================================================================
-   10. VIDEO BANNER
-   ========================================================================== */
-
-#video {
-	padding-top: 100px;
-}
-
-#video_title h2 {
-	color: #fff;
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 5px;
-}
-
-#video_title h2 span {
-	font-weight: 700;
-}
-
-#video_title p {
-	color: #fff;
-	font-size: 20px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	line-height: 26px;
-	margin-bottom: 40px;
-}
-
-/*------------------------------------------*/
-/*	  Video Content Settings
-/*------------------------------------------*/ 
-
-.video-block {
-	position: relative;
-	padding-bottom: 54.25%;
-	padding-top: 20px;
-	height: 0;
-	overflow: hidden;
-}
-
-.video-block iframe,
-.video-block object,
-.video-block embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border:0;
-}
-
-
-
-/* ==========================================================================
-   11. TESTIMONIALS ROTATOR
-   ========================================================================== */
-  
-.testimonials {
-	margin: 120px 8% 80px;
-}
-
-.slides {
-	margin: 10px 0 200px;
-}
-
-/*------------------------------------------*/
-/*	 Message Author
-/*------------------------------------------*/
-
-.testimonials p.author {
-	font-size: 16px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	margin-bottom: 0;
-	padding-top: 10px;
-}
-
-.testimonials p.author span {
-	color: #19acca;
-}
-
-/*------------------------------------------*/
-/*	 Testimonial Message Text
-/*------------------------------------------*/
-
-.testimonials p {
-	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	line-height: 46px;
-    padding-top: 10px;
-}
-
-
-
-/* ==========================================================================
-   12. FEATURE FOUR
-   ========================================================================== */
-   
-#feature_four {
-	background-image: image-url("pattern.png");
-	background-color: #19acca;	
-	background-repeat: repeat;
-	background-position: 0 0;
-	padding-bottom: 40px;	
-	color: #fff;
-}
-
-/*------------------------------------------*/
-/*	 Feature Four Image
-/*------------------------------------------*/
-
-#feature_4_image {
-	margin-top: -120px;
-}
-
-/*------------------------------------------*/
-/*	 Feature Four Description
-/*------------------------------------------*/	
-
-#feature_4_description {
-	margin-top: 145px;	
-}
-
-#feature_4_description h2 {
-	color: #fff;
-}
-
-#feature_4_description p {
-	color: #fff;
-}
-
-/*------------------------------------------*/
-/*	 Feature Four Stores Buttons
-/*------------------------------------------*/
-
-.stores {
-	margin-top: 40px;
-}
-
-.stores a {
-	margin-right: 8px;
-}
-
-.stores a:last-child {
-	margin-right: 0;
-}
-
-
-
-/* ==========================================================================
-   13. FAQs
-   ========================================================================== */
- 
-#faq {
-	padding-top: 100px;
-}
-
-#last_row {
-	padding-bottom: 100px;
-}
-
-#faq h1 {
-	color: #222;
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 40px;
-}
-
-/*------------------------------------------*/
-/*	  FAQs Question
-/*------------------------------------------*/
-
-.question {
-	margin-bottom: 20px;
-}
-  
-.question h4 {
-	font-weight: 600;
-	line-height: 26px;
-}
-
-.question p {
-	color: #666;
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
-	line-height: 26px;
-}
-
-
-
-/* ==========================================================================
-   14. NEWSLETTER
-   ========================================================================== */
-
-#newsletter {
-	padding-top: 60px;
-	padding-bottom: 80px;
-	background-image: image-url("newsletter_bkg.jpg");
-    background-repeat: repeat;
-    background-position: center center;
-}
-
-#newsletter h1 {
-	color: #fff;
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 5px;
-}
-
-#newsletter p {
-	color: #999;
-	font-size: 20px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	padding: 0 20%;
-}
-
-.message {
-	font-size: 18px;
-    font-family: 'Raleway', sans-serif;	
-	margin-bottom: 20px;
-}
-
-/*------------------------------------------*/
-/*	  Newsletter Form Input
-/*------------------------------------------*/
-
-#newsletter form input[type="email"] {
-    background-color: #f0f0f0;
-	width: 40%;
-	color: #414141;
-	font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-
-#newsletter form input[type="submit"] {
-	width: 16%;
-	background-color: #19acca;
-	color: #fff;
-	font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-	text-transform: uppercase;
-    margin-left: 10px;
-    padding: 10px 15px;
-	border: medium none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-	-webkit-transition: all 250ms ease-in-out;
-	-moz-transition: all 250ms ease-in-out;
-	-o-transition: all 250ms ease-in-out;
-	-ms-transition: all 250ms ease-in-out;
-	transition: all 250ms ease-in-out;
-}
-
-#newsletter form input[type="submit"]:hover {
-	background-color: #1292ac;
-}
 
 
 
@@ -1067,4 +631,144 @@ nav a#pull {
     display: none;  
 }
 
+#features_head {
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
 
+#machineLearning{
+	display: block;
+/*	padding: auto;
+	width: 1000px;
+*/	height: 800px;
+	overflow: hidden;
+}
+
+.svg {
+	display: block;
+}
+
+.img-rounded{
+	width:300px;
+	height:400px;
+}
+
+#graphContainer{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 0px;
+}
+
+#tooltip {
+	display: block;
+	width : 250px;
+	height: 800px;
+	color: #000000; 
+	z-index: 10;
+	position: absolute;
+	left: 800px;
+	/*padding: 20px;*/
+	/*background-color: #000000;*/
+}
+
+#tooltip h3{
+	color: #5a5555; 
+	text-align: center;
+
+}
+
+circle.node {
+  cursor: pointer;
+  stroke: #5A5555;
+  stroke-width: .5px;
+
+}
+
+line.link {
+  fill: none;
+  stroke: #CBC2C0;
+  stroke-width: 1.5px;
+}
+
+#imgContainer{
+	width: 250px;
+	height: 330px;
+	text-align: center;
+	display: block;
+}
+
+#imgContainer img{
+	text-align: center;
+	display: block;
+	margin: 5px;
+	width: 240px;
+	border-radius: 5px;
+}
+
+#barContainer {
+	text-align: center;
+	margin: 5px;
+	display: block;
+	width: 240px;
+
+}
+
+/*Sample Image section*/
+#container {
+    overflow: hidden;
+}
+
+#database_head {
+	margin: 15px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+#database_paragraph {
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+/*Photo Banner*/
+.photobanner {
+    height: 400px;
+    width: 2100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    right: 0px;
+    transition-property: right;
+    transition-duration: 3s;
+}
+ 
+.photobanner:hover {
+	position: relative;
+	right: 605px;
+}
+
+.photobanner img:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+/*Output Section*/
+#output_image {
+	/*background-color: */
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    /*border: 1px solid #000000;*/
+} 
+
+#output_image img {
+    display: inline;
+    margin: 15px;
+    /*border: 1px solid #000000;*/
+    border-radius: 5px;
+}
