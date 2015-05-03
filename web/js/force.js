@@ -34,7 +34,7 @@ function drawOne(id,colors,frequencies){
   var xScale = d3.scale.ordinal()
     .domain(d3.range(frequency.length))
     .rangeBands([0,width],svgConf.barPad);
-  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d/2 : d;});
+  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d * svgConf.whiteCut : d;});
   var yScale = d3.scale.linear()
     .domain([0,yMax])
     .range([0,height]);
