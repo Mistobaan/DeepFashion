@@ -104,6 +104,14 @@
 						<img src="http://deepfashion.org/image/lg-980.jpg" class="img-rounded" alt="" width="300" height="400"> 
 						<img src="http://deepfashion.org/image/lg-919.jpg" class="img-rounded" alt="" width="300" height="400">  -->
 					</div>	
+					<div id="search_section">
+						<%= simple_form_for @photo, :remote => true do |f| %>
+						<%= f.label :Upload %>
+					    <%= f.file_field :photo_url %>
+					 	<%= f.button :submit, id:"search" %>
+						<% end %>
+						<div id="image"></div>
+					</div>
 				</div>											
 			</section>	<!-- END DATABASE IMAGE -->
 
@@ -111,8 +119,6 @@
 			============================================= -->
 			<footer id="footer">
 				<div class="container">
-				
-				
 					<!-- Footer Social Icons -->
 					<div class="row">									
 						<div id="footer_icons" class="col-md-12 text-center">																	
@@ -129,13 +135,16 @@
 						<div id="footer_copy" class="col-sm-12 text-center">	
 							<p>DeepFashion © 2015. Designed and developed by DeepFashion.</p>	
 						</div>	
+<<<<<<< HEAD
+					</div> 		
+=======
 					</div> 
+>>>>>>> f37b4ebf1cd3d1a82d745b204af92549d7793b69
 				</div>	  <!-- End container -->							
 			</footer>	<!-- END FOOTER -->
-			
-	
 		</div>	<!-- END CONTENT WRAPPER -->
 
+<<<<<<< HEAD
 
 		<%= simple_form_for @photo, :remote => true do |f| %>
 		  <%= f.label :name %>
@@ -144,3 +153,5 @@
 		<% end %>
 		<div id="image"></div>
 
+=======
+>>>>>>> 19202f9f66ace08eafb84a6783faab126cab4533
