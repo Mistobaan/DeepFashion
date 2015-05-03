@@ -4,15 +4,31 @@ function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
 }
 
-function drawOne(id,color,frequency){
+function drawOne(id,colors,frequencies){
   
-  //print out ID
-  // d3.select("body").append("p").text(id);
+  var colorArray = colors.slice();
+  var frequencyArray = frequencies.slice();
+//preprocess color and frequency to the hightest five
+  var color = [], frequency = [];
+  for(var j = 0; j < 5; j++){
+    var maxPos = 0, max = frequencyArray[0];
+    for(var i = 0; i < frequencyArray.length; i++){
+      if(frequencyArray[i] > max){
+          max = frequencyArray[i];
+          maxPos = i;
+      }
+    }
+    color.push(colorArray[maxPos]);
+    colorArray.splice(maxPos,1);
+    frequency.push(frequencyArray[maxPos]);
+    frequencyArray.splice(maxPos,1);
+  }
 
   //set SVG configuration
   var svgConf = {
     //height and width
     h: 200, w:200,xPad:10,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
 
@@ -20,7 +36,7 @@ function drawOne(id,color,frequency){
   var xScale = d3.scale.ordinal()
     .domain(d3.range(frequency.length))
     .rangeBands([0,width],svgConf.barPad);
-  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d/2 : d;});
+  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d * svgConf.whiteCut : d;});
   var yScale = d3.scale.linear()
     .domain([0,yMax])
     .range([0,height]);
@@ -98,15 +114,17 @@ var vis = treeGraph
     .attr("width", w)
     .attr("height", h);
 
+
 var tooltip = d3.select("#machineLearning")
   .append("div")
   .attr("id", "tooltip")
   .style("visibility", "hidden");;
 
+var tooltipH = tooltip.append("h2");
+
 var imgContainer = tooltip.append("div")
   .attr("id", "imgContainer");
 
-tooltipH = tooltip.append("h2");
 var barContainer = tooltip.append("div")
   .attr("id", "barContainer");
 
@@ -175,6 +193,7 @@ function update() {
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
+          tooltipH.html(d.category)
           imgContainer.html("")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
@@ -185,6 +204,7 @@ function update() {
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
+
 
           imgRoot = "http://www.deepfashion.org/image/lg-"
           imgEnd = ".jpg"
