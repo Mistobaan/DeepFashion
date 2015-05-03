@@ -1,11 +1,12 @@
 class PhotosController < ApplicationController
   def create
   	@photo = Photo.create(photo_params)
-  	redirect_to root_url
-  	# send_file 'public/' + @photo.photo_url, type: 'image/png', disposition: 'inline'
-  	# @photo.photo_url
+  	respond_to do |format|
+  		if @photo.save
+  			format.js
+  		end
+  	end
   end
-
   
   private
   	def photo_params
