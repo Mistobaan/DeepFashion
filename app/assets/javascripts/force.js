@@ -61,6 +61,7 @@ function arraySwap(array,i,j){
 }
 
 function drawOne(id,colors,frequencies){
+  if(!colors || !frequencies){return;} 
   var colorArray = colors.slice();
   var frequencyArray = frequencies.slice();
 //preprocess color and frequency to the hightest five
@@ -217,15 +218,14 @@ function drawOne(id,colors,frequencies){
           // tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
           // .duration(200);
 
-          if (d.children){
+          if (d.children || d._children){
             id = "bar" + d.name;
             frequency = d.distribution;
             colorDist = d.color;
             tooltipH.html(d.name.toUpperCase());
             imgContainer.html("");
             barContainer.html("");
-            drawOne(id,colorDist,frequency);
-
+			drawOne(id,colorDist,frequency);
           }
           else {
             category = d.category;
