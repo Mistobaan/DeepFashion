@@ -3,6 +3,11 @@
 function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
 }
+function arraySwap(array,i,j){
+  var temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+}
 
 function drawOne(id,colors,frequencies){
   
@@ -24,10 +29,30 @@ function drawOne(id,colors,frequencies){
     frequencyArray.splice(maxPos,1);
   }
 
+    //sort 5 elements in terms of color
+  colorDist = function(c1,c2){
+    return Math.pow(c1[0]-c2[0],2) + Math.pow(c1[1]-c2[1],2) + Math.pow(c1[2]-c2[2],2);
+  };
+  var prevColor = [255,255,255];
+  for(var i = 0; i < 5 - 1; i++){
+    var minPos = i;
+    var minDist = colorDist(color[minPos],prevColor);
+    for(var j = i+1; j < 5; j++){
+      var dist = colorDist(color[j],prevColor);
+      if(dist < minDist){
+        minDist = dist;
+        minPos = j;
+      }
+    }
+    arraySwap(color,i,minPos);
+    arraySwap(frequency,i,minPos);
+    prevColor = color[i];
+  }
+
   //set SVG configuration
   var svgConf = {
     //height and width
-    h: 200, w:200,xPad:10,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+    h: 200, w:200,xPad:10,yPad:40,barPad:0.1,whiteCut:0.1,brickPad:1
 
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
@@ -67,12 +92,13 @@ function drawOne(id,colors,frequencies){
                   : svgConf.h-svgConf.yPad-yScale(d);});
 
   //draw block
-  var block = svg.selectAll("block").data(color).enter();
+  var block = svg.selectAll(".block").data(color).enter();
 
   block.append("rect")
   .attr("fill",function(d){
     return "rgb("+Math.round(d[0])+","+Math.round(d[1])+","+Math.round(d[2])+")"
   })
+  .style("stroke","#CCCCCC")
   .attr("height",xScale.rangeBand)
   .attr("width",xScale.rangeBand)
   .attr("x",function(d,i){
@@ -120,7 +146,7 @@ var tooltip = d3.select("#machineLearning")
   .attr("id", "tooltip")
   .style("visibility", "hidden");;
 
-var tooltipH = tooltip.append("h2");
+var tooltipH = tooltip.append("h3");
 
 var imgContainer = tooltip.append("div")
   .attr("id", "imgContainer");
@@ -193,24 +219,28 @@ function update() {
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
-          tooltipH.html(d.category)
+          tooltipH.html(d.name)
           imgContainer.html("")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
 
         }
-        else{
+        else {
           category = d.category
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
 
-
+          tooltipH.html(d.category? d.category: d.name)
           imgRoot = "http://www.deepfashion.org/image/lg-"
           imgEnd = ".jpg"
           imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
+
+
+          
+          
 
         }
 
