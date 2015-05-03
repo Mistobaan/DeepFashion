@@ -51512,3 +51512,1618 @@ Processing by PhotosController#create as JS
   [1m[35m (0.1ms)[0m  commit transaction
   Rendered photos/create.js.erb (2.6ms)
 Completed 200 OK in 3526ms (Views: 61.8ms | ActiveRecord: 32.1ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 02:52:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1487.0ms)
+Completed 200 OK in 5694ms (Views: 5684.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 02:52:14 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/bootstrap-9c5b5593e0913848547db2e2c983698f.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/custom-e47823b99080165d937ae94fca3f85c7.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/style-69e22b4353cabba2c592848cf97c0b64.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 02:52:15 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 02:52:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (520.5ms)
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 02:52:18 -0700
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 02:52:18 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (108.6ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:04:50 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 1436ms (Views: 1435.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/bootstrap-9c5b5593e0913848547db2e2c983698f.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/style-69e22b4353cabba2c592848cf97c0b64.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:04:52 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:04:53 -0700
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 03:04:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (88.0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:04:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (110.4ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:09:56 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1049ms (Views: 1048.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/bootstrap-9c5b5593e0913848547db2e2c983698f.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/style-69e22b4353cabba2c592848cf97c0b64.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:09:57 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:09:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (116.5ms)
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 03:09:58 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (135.4ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:11:48 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1235ms (Views: 1235.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:11:49 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/style-69e22b4353cabba2c592848cf97c0b64.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:11:50 -0700
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 03:11:50 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (107.1ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/style-69e22b4353cabba2c592848cf97c0b64.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:11:58 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:11:58 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (122.5ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:14:11 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1167ms (Views: 1166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/style-a3e93e5dad49f0517fcb3b465cfcb32b.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:14:13 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:14:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (126.3ms)
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 03:14:14 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (118.1ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:15:36 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (883.5ms)
+Completed 200 OK in 3966ms (Views: 3955.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/style-a3e93e5dad49f0517fcb3b465cfcb32b.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:15:42 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:15:43 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:15:43 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (166.8ms)
+
+
+Started GET "/img/icons/back-to-top.png" for ::1 at 2015-05-03 03:15:44 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/back-to-top.png"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (131.6ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:18:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/style-a3e93e5dad49f0517fcb3b465cfcb32b.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:18:53 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-05-03 03:18:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/xiangpan/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (97.6ms)
+
+
+Started GET "/" for ::1 at 2015-05-03 03:23:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (861.0ms)
+Completed 200 OK in 3013ms (Views: 3003.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/application-86497c43f553d6ee500a89a405806407.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:23:25 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/style-a3e93e5dad49f0517fcb3b465cfcb32b.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/application-f2a1487ba7b54212a79ff751a0b6b396.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20.jpg" for ::1 at 2015-05-03 03:23:26 -0700
+
+
+Started GET "/" for ::1 at 2015-05-03 03:23:43 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1374ms (Views: 1373.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/style-a3e93e5dad49f0517fcb3b465cfcb32b.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/application-86497c43f553d6ee500a89a405806407.css?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/force-25f3f45ebd874088c038f22958849e50.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/custom-c4690456716c14c8a71427e7eb8963cb.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/application-f2a1487ba7b54212a79ff751a0b6b396.js?body=1" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 03:23:46 -0700
+
+
+Started GET "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20.jpg" for ::1 at 2015-05-03 03:23:46 -0700
