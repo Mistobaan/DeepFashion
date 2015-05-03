@@ -460,7 +460,6 @@ a:focus {
 	margin-bottom: 40px;
 	color: rgb(90, 85, 85);
 	text-transform: uppercase;
-
 } 
    
 /*------------------------------------------*/
@@ -632,11 +631,21 @@ nav a#pull {
     display: none;  
 }
 
+#features_head {
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
+
 #machineLearning{
 	display: block;
-	padding: auto;
+/*	padding: auto;
 	width: 1000px;
-	height: 800px;
+*/	height: 800px;
+	overflow: hidden;
+}
+
+.svg {
+	display: block;
 }
 
 #graphContainer{
@@ -647,13 +656,15 @@ nav a#pull {
 }
 
 #tooltip {
-	display: inline-block;
-	width : 240px;
-	color: #5a5555; 
+	display: block;
+	width : 250px;
+	height: 800px;
+	color: #000000; 
 	z-index: 10;
 	position: absolute;
 	left: 800px;
-	padding: 5%;
+	/*padding: 20px;*/
+	/*background-color: #000000;*/
 }
 
 #tooltip h3{
@@ -676,13 +687,14 @@ line.link {
 }
 
 #imgContainer{
+	width: 250px;
+	height: 330px;
+	text-align: center;
 	display: block;
-
 }
 
-
-
 #imgContainer img{
+	text-align: center;
 	display: block;
 	margin: 5px;
 	width: 240px;
@@ -690,6 +702,7 @@ line.link {
 }
 
 #barContainer {
+	text-align: center;
 	margin: 5px;
 	display: block;
 	width: 240px;
