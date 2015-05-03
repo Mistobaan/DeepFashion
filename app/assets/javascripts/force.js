@@ -10,18 +10,19 @@ var hash = {"first":["65", "67", "68", "72", "74","93","96","97","98","99"],"thi
 $(".img-rounded").on('click',function(e){
   e.preventDefault();
   $('#image').empty();
+  $('#recommendations').empty();
   var $element = $(this);
   var id = $element.attr('id');
   addImages(id,hash);
 });
 
 function addImages(id,list){
-  for (i = 0;i<5;i++){
+  for (i = 0;i<8;i++){
     address = 'http://deepfashion.org/image/lg-'.concat(list[id][i],'.jpg');
     var img = document.createElement("img");
     img.src = address;
     img.className = "match";
-    $('#image').append(img);
+    $('#recommendations').append(img);
   }
 }
 
