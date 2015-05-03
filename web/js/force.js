@@ -12,7 +12,7 @@ function drawOne(id,color,frequency){
   //set SVG configuration
   var svgConf = {
     //height and width
-    h:150,w:100,xPad:20,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+    h: 200, w:200,xPad:10,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
 
@@ -39,7 +39,7 @@ function drawOne(id,color,frequency){
   /*.attr("fill", function(d,i){
     return "rgb("+Math.round(color[i][0])+","+Math.round(color[i][1])+","+Math.round(color[i][2])+")";
   })*/
-  .attr("fill","")
+  .attr("fill","#5A5555")
   .attr("class","bar")
   .attr("height",function(d,i){return isWhite(color[i])
                     ? yScale(svgConf.whiteCut*d)  //cut the height of white bars
@@ -76,7 +76,7 @@ function drawOne(id,color,frequency){
 
 // draw tree
 
-var w = 1000,
+var w = 800,
     h = 800,
     node,
     link,
@@ -90,22 +90,29 @@ var force = d3.layout.force()
 
 
 
-var vis = d3.select("#graphContainer").append("svg:svg")
-    .attr("width", w)
-    .attr("height", h)
+var treeGraph = d3.select("#machineLearning")
+    .append("div").attr("id", "graphContainer");
 
-var tooltip = d3.select("body")
+var vis = treeGraph
+    .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+var tooltip = d3.select("#machineLearning")
   .append("div")
   .attr("id", "tooltip")
-  .style("position", "absolute")
-  // .style("z-index", "10")
-  .style("visibility", "hidden");
+  .style("visibility", "hidden");;
 
+var imgContainer = tooltip.append("div")
+  .attr("id", "imgContainer");
+
+tooltipH = tooltip.append("h2");
 var barContainer = tooltip.append("div")
-  .attr("id", "barContainer")
-  .style("position", "relative")
-  .style("left", "50px")
-  .style("top", "10px")
+  .attr("id", "barContainer");
+
+
+
+
 
 root = data;
 root.fixed = true;
@@ -157,32 +164,44 @@ function update() {
       .on("click", click)
       .call(force.drag)
       .on("mouseover", function(d){
+        d3.select(this).attr("r", function(d) { return 2 * size(d);  });
         return tooltip.style("visibility", "visible");
       })
       .on("mousemove", function(d){
-        tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
-        .duration(200);
+        // tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
+        // .duration(200);
 
-        console.log(d)
+        if (d.children){
+          id = "bar" + d.name
+          frequency = d.distribution
+          colorDist = d.color
+          imgContainer.html("")
+          barContainer.html("")
+          drawOne(id,colorDist,frequency) 
 
-        category = d.category
-        id = "bar" + d.name
-        frequency = d.distribution
-        color = d.color
-        barContainer.html("")
+        }
+        else{
+          category = d.category
+          id = "bar" + d.name
+          frequency = d.distribution
+          colorDist = d.color
 
-        // barContainer.exit().remove()
-        // barContainer = tooltip.append("div")
-        //   .attr("id", "barContainer")
-        //   .style("position", "relative")
-        //   .style("left", "50px")
-        //   .style("top", "10px")
-        drawOne(id,color,frequency)
+          imgRoot = "http://www.deepfashion.org/image/lg-"
+          imgEnd = ".jpg"
+          imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
+          barContainer.html("")
+          drawOne(id,colorDist,frequency) 
+
+        }
+
+
 
 
         return tooltip
       })
       .on("mouseout", function(d){
+        d3.select(this).attr("r", function(d) { return size(d);  });
+
         return tooltip.style("visibility", "hidden");
       });
 
