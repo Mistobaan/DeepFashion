@@ -125,8 +125,6 @@
 							</ul>
 						</div>	 <!-- End Footer Social Icons -->	
 					</div>
-				
-				
 					<!-- Footer Copy-->
 					<div class="row">	
 						<div id="footer_copy" class="col-sm-12 text-center">	
@@ -140,3 +138,10 @@
 			
 	
 		</div>	<!-- END CONTENT WRAPPER -->
+
+
+		<%= simple_form_for @photo do |f| %>
+		  <%= f.label :name %>
+		  <%= f.input :username %>
+		  <%= f.button :submit %>
+		<% end %>

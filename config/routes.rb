@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'photos/create'
+
   root 'static_pages#home'
   get 'signup' => 'users#new'
   get    'login'   => 'sessions#new'
