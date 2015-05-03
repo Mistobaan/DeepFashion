@@ -76866,3 +76866,196 @@ Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-
 >>>>>>> e5079b5c3073bff84d12ed90fc63541ba7e299cb
 >>>>>>> a9556d77a5e9495b63a888f5303d57c16efad1ce
 >>>>>>> 750b7c9e11f4af88f8eee4cf6a5643d9b284e360
+
+
+Started GET "/" for ::1 at 2015-05-03 06:19:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (922.5ms)
+Completed 200 OK in 3563ms (Views: 3527.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:42 -0700
+
+
+Started GET "/assets/style-e3c3d732f572f949960aa1478865adda.css?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.iframe-transport-ebc4f1574ae0571f2bb666bbabf018b4.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/application-b795bc04efdf95259bf0e08ee5accf6b.css?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.remotipart-be963bfe8b55ef65ed64235bbd6b8619.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/account_activations-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/force-84b7db1a12189d3dab0dacfcd36d2fe8.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/bootstrap.min-31eb6cf54cc288bb996124ab80d391f7.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/count-to-c7379720fb3cd5ec08d3913b2f727d6a.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/custom-660dd9532efee6b54e6f4fc11972aed2.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/d3.v3.min-5cf1bcb01f4d986e36c57f845aa045d3.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/data-55166b845bee0187e6fdeabd2defd573.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/drawOne-eec4157d6463c3c057c9112a011c73bd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.appear-ee813c475b31883ca853fa006deb390c.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.easing-2dce808027c2539ab32f1909f68e941b.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.flexslider-763b5d33f78df7b3e69b6798f40fd0f9.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.parallax-1.1.3-6967c8fb3a448fb62d0ac3bb02c3bce9.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.stellar.min-131e31a2ed954c02e23eae594d3d9fae.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/jquery.superslides-6a79a7adb367de64be95b10b5ab5219c.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/modernizr.custom-c02434196a25df1854614cbb87c5b221.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/password_resets-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/movie-network-f552c182e6dd8f771037a4c78ab43fe4.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/photos-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/retina-d157595dca11220694fc4543e3e35bce.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/selectableForceDirectedGraph-16dbd85d48fc58cebccfd3b4b80fa2d8.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/waypoints.min-df297506365bc8f5cb8f69a4145c2b19.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/application-e97c997687b8769e76395bbfc13c76cb.js?body=1" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/wallpaper-5c6051a3aa7368fce8e098db755aad20.jpg" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/logo-8cf3f09a4e284454bc3b8fc4577c090b.png" for ::1 at 2015-05-03 06:19:43 -0700
+
+
+Started GET "/assets/font-awesome-b963e7b2c65e31daeffebd553dc55e56.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/flexslider-5a475d34a6033dffb25fcb88484d45f9.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/display-9dc37fa66767a3f0e4588b3e1dc44239.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/animate-74c6ba44ca542c38016a1d21114b130c.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/bootstrap-0640122e3706f8d7810d602bf614f21a.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/account_activations-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/font-awesome.min-e684a581fb7647e334ebfcebcce3a452.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/password_resets-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/photos-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/responsive-6b10c0e700b6340e9915175937126ada.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/style-e3c3d732f572f949960aa1478865adda.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
+
+
+Started GET "/assets/application-b795bc04efdf95259bf0e08ee5accf6b.css?body=1" for ::1 at 2015-05-03 06:19:55 -0700
