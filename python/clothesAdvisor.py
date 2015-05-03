@@ -207,3 +207,5 @@ class ClothesAdvisor:
 advisor = ClothesAdvisor(["img/lg-4835.jpg"])
 
 
+advisor = ClothesAdvisor()
+# advisor.evaluateClothes('lg-4835.jpg')

@@ -450,8 +450,8 @@ a:focus {
 	background-color: #fff; 
 }
 #features .row {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }  
    
 .features_title h1 {
@@ -460,7 +460,6 @@ a:focus {
 	margin-bottom: 40px;
 	color: rgb(90, 85, 85);
 	text-transform: uppercase;
-
 } 
    
 /*------------------------------------------*/
@@ -632,11 +631,21 @@ nav a#pull {
     display: none;  
 }
 
+#features_head {
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
+
 #machineLearning{
 	display: block;
-	padding: auto;
+/*	padding: auto;
 	width: 1000px;
-	height: 800px;
+*/	height: 800px;
+	overflow: hidden;
+}
+
+.svg {
+	display: block;
 }
 
 #graphContainer{
@@ -647,17 +656,20 @@ nav a#pull {
 }
 
 #tooltip {
-	display: inline-block;
-	width : 240px;
-	color: #5a5555; 
+	display: block;
+	width : 250px;
+	height: 800px;
+	color: #000000; 
 	z-index: 10;
 	position: absolute;
 	left: 800px;
-	padding: 5%;
+	/*padding: 20px;*/
+	/*background-color: #000000;*/
 }
 
-#tooltip h2{
+#tooltip h3{
 	color: #5a5555; 
+	text-align: center;
 
 }
 
@@ -675,13 +687,14 @@ line.link {
 }
 
 #imgContainer{
+	width: 250px;
+	height: 330px;
+	text-align: center;
 	display: block;
-
 }
 
-
-
 #imgContainer img{
+	text-align: center;
 	display: block;
 	margin: 5px;
 	width: 240px;
@@ -689,10 +702,68 @@ line.link {
 }
 
 #barContainer {
+	text-align: center;
 	margin: 5px;
 	display: block;
 	width: 240px;
 
 }
 
+/*Sample Image section*/
+#container {
+    overflow: hidden;
+}
 
+#database_head {
+	margin: 15px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+#database_paragraph {
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+/*Photo Banner*/
+.photobanner {
+    height: 400px;
+    width: 2100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    right: 0px;
+    transition-property: right;
+    transition-duration: 3s;
+}
+ 
+.photobanner:hover {
+	position: relative;
+	right: 605px;
+}
+
+.photobanner img:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+/*Output Section*/
+#output_image {
+	/*background-color: */
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    /*border: 1px solid #000000;*/
+} 
+
+#output_image img {
+    display: inline;
+    margin: 15px;
+    /*border: 1px solid #000000;*/
+    border-radius: 5px;
+}

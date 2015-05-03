@@ -1,0 +1,5 @@
+alert("success!");
+$('#image').append("<%= escape_javascript (image_tag(@photo.photo_url)) %>");
+<% @list.each do |item| %>
+	$('#image').append("<%= escape_javascript(image_tag(item['media']['images'][0]['mediumUrl'])) %>");
+<% end %>
