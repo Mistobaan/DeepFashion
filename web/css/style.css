@@ -509,9 +509,6 @@ a:focus {
 
 
 
-
-
-
 /* ==========================================================================
    15. FOOTER
    ========================================================================== */
@@ -646,4 +643,13 @@ line.link {
   stroke-width: 1.5px;
 }
 
+#tooltip {
+	width : 400px;
+	min-height: 100px;
+	background-color: #fff;
+	border-color: #ccc;
+	color: #5a5555; 
+	z-index: 10;
+	position: absolute;
+}
 
