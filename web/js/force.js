@@ -27,7 +27,7 @@ function drawOne(id,colors,frequencies){
   //set SVG configuration
   var svgConf = {
     //height and width
-    h: 200, w:200,xPad:10,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+    h: 200, w:200,xPad:10,yPad:40,barPad:0.1,whiteCut:0.1,brickPad:1
 
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
@@ -193,18 +193,19 @@ function update() {
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
-          tooltipH.html(d.category)
+          tooltipH.html(d.name)
           imgContainer.html("")
           barContainer.html("")
           drawOne(id,colorDist,frequency) 
 
         }
-        else{
+        else {
           category = d.category
           id = "bar" + d.name
           frequency = d.distribution
           colorDist = d.color
 
+          tooltipH.html(category)
 
           imgRoot = "http://www.deepfashion.org/image/lg-"
           imgEnd = ".jpg"
