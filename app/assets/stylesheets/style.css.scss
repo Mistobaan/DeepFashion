@@ -778,14 +778,23 @@ line.link {
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
+.invisibleClass{
+	visibility: hidden;
+}
 
-#search_section{
+/*#search-section{
+	position: fixed;
+	display: block;
+	width: 500px;
+	height: 300px;
+	z-index: 9999;
 	color: #5a5555;
 	text-align: left;
 
-}
 
-#search_section form label{
+}*/
+
+#search-section form label{
   margin-top: 30px;
   color: #5a5555;
   text-align: left;
@@ -796,7 +805,7 @@ line.link {
 
 
 }
-#search_section form{
+#search-section form{
   font-size: 20px;
 }
 
@@ -835,20 +844,26 @@ line.link {
 
 }
 
-#search_section form input{
+#search-section form input{
   color: #5a5555;
   text-align: center;
   display: inline-block;
   height: 30px;
   margin-left: 10%;
 }
-
+#recommendationContainer{
+	margin: 0;
+	padding: 0;
+}
+#recommendations{
+	margin: 0;
+	padding: 0;
+}
 #recommendationContainer p{
   margin-top: 30px;
   color: #5a5555;
   text-align: left;
   font-size: 20px;
-  margin-left: 10%;
   display: block;
   margin-bottom: 20px;
 }
@@ -864,10 +879,43 @@ line.link {
 
 .match{
   height: auto;
-  width: 24%;
+  width: 25%;
   border-radius: 6px;
   padding: 2%;
   display: inline-block;
   margin: auto;
   text-align: center;
+}
+
+#testYours{
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	display: block;
+	margin: auto;
+	color: #f2f2f0 ;
+	background-color: #7F7F7F;
+	border-color: #7F7F7F;
+	width: 300px;
+	border-radius: 5px;
+	font-size: 24px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 2px 2px 2px #ccc;
+	margin-top: 40px;
+
+
+}
+
+#testYours:hover{
+	background-color: #5A5555;
 }

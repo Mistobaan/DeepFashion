@@ -78,7 +78,7 @@
 				<div id="container">
 					<div class="features_title text-center">		
 						<h1 id="database_head">Outfit Gallery</h1>
-						<p id="database_paragraph">Select your favorite outfit from our gallery</p>
+						<p id="database_paragraph">Select the collections below to test our recommendations.</p>
 					</div>
      				<div id="banner" class="photobanner">
 						<%= image_tag("http://deepfashion.org/image/lg-517.jpg",:class=>"img-rounded",:id=>"first") %>
@@ -87,26 +87,27 @@
 						<%= image_tag("http://deepfashion.org/image/lg-980.jpg",:class=>"img-rounded",:id=>"fifth") %>
 						<%= image_tag("http://deepfashion.org/image/lg-919.jpg",:class=>"img-rounded",:id=>"sixth") %>
 					</div>	
-					<div id="search_section">
-						<%= simple_form_for @photo, :remote => true do |f| %>
-						<%= f.label :"Upload your own photo now: "%>
-					    <%= f.file_field :photo_url, class:"custom-file-input" %>
-					 	<%= f.button :submit%>
 
-						<% end %>
-<<<<<<< HEAD
-=======
+					<div id = "recommendationContainer">
+						<a id="testYours">Test with your local files</a>
+						<div id="search-section" class = "invisibleClass">
+							<%= simple_form_for @photo, :remote => true do |f| %>
+							<%= f.label :"Upload your own photo now: "%>
+						    <%= f.file_field :photo_url, class:"custom-file-input" %>
+						 	<%= f.button :submit%>
+
+							<% end %>
+
+						</div>
+
+<!-- 						<p>Here are our recommendations:</p>
+						<div id="image"></div>
+ -->
 						<div id="image"></div>
 						<div id="recommendations"></div>
->>>>>>> aa2b977d3a4ad839129ac23a0c62a1bdfea2eb7b
-					</div>
-					<div id = "recommendationContainer">
-<!-- 						<p>Here are our recommendations:</p>
- -->						<div id="image"></div>
-
 					</div>
 
-					<div class="clear"></div>
+
 
 				</div>											
 			</section>	<!-- END DATABASE IMAGE -->

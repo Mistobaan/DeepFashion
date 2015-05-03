@@ -1,6 +1,7 @@
 #search_section{
 	color: #5a5555;
 	text-align: left;
+	visibility: collapse;
 
 }
 
@@ -60,5 +61,4 @@
   display: inline-block;
   height: 30px;
   margin-left: 10%;
-}
 }
