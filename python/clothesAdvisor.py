@@ -42,7 +42,7 @@ class ANN(BackpropNetwork):
 
 class ClothesAdvisor:
 	def __init__(self, imageAddList, verbose=0):
-		self.weights = "ANN/final"
+		self.weights = "ANN/finalWeights"
 		self.ANN = self.establishANN()
 		self.data = json.load(open('myData.json'))
 
@@ -52,7 +52,6 @@ class ClothesAdvisor:
 
 		for i in imageAddList:
 			self.evaluateClothes(i)
-
 
 	def establishANN(self):
 		n = ANN()
@@ -112,11 +111,6 @@ class ClothesAdvisor:
 				toReturn.append({"center":center, "images": image_index_list})
 		
 		return toReturn
-
-
-
-
-
 
 	def compareWithClusters(self, colorScheme, category):
 		hist = self.data[category]["hist"]
@@ -204,8 +198,8 @@ class ClothesAdvisor:
 		return 1
 
 
-advisor = ClothesAdvisor(["img/lg-4835.jpg"])
+advisor = ClothesAdvisor(["lg-4835.jpg"])
 
 
-advisor = ClothesAdvisor()
-# advisor.evaluateClothes('lg-4835.jpg')
+# advisor = ClothesAdvisor()
+advisor.evaluateClothes('lg-4835.jpg')
