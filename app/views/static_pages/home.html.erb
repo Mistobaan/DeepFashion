@@ -90,9 +90,10 @@
 					</div>	
 					<div id="search_section">
 						<%= simple_form_for @photo, :remote => true do |f| %>
-						<%= f.label :Upload %>
-					    <%= f.file_field :photo_url %>
-					 	<%= f.button :submit, id:"search" %>
+						<%= f.label :"Upload your own photo now: "%>
+					    <%= f.file_field :photo_url, class:"custom-file-input" %>
+					 	<%= f.button :submit%>
+
 						<% end %>
 						<div id="image"></div>
 					</div>
