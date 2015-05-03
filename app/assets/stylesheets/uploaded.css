@@ -1,0 +1,15 @@
+/*uploaded*/
+#image{
+	width: 80%;
+	left:10%;
+	right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.uploaded{
+	height: 400px;
+	width: 300px;
+	padding: 10px,10px,10px,10px;
+	float: left;
+}
