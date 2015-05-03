@@ -4,14 +4,28 @@ function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
 }
 
-function drawOne(id,color,frequency){
+function drawOne(id,colors,frequencies){
   
-  //print out ID
-  // d3.select("body").append("p").text(id);
+  var colorArray = colors.slice();
+  var frequencyArray = frequencies.slice();
+//preprocess color and frequency to the hightest five
+  var color = [], frequency = [];
+  for(var j = 0; j < 5; j++){
+    var maxPos = 0, max = frequencyArray[0];
+    for(var i = 0; i < frequencyArray.length; i++){
+      if(frequencyArray[i] > max){
+          max = frequencyArray[i];
+          maxPos = i;
+      }
+    }
+    color.push(colorArray[maxPos]);
+    colorArray.splice(maxPos,1);
+    frequency.push(frequencyArray[maxPos]);
+    frequencyArray.splice(maxPos,1);
+  }
 
   //set SVG configuration
   var svgConf = {
-    //height and width
     h:150,w:100,xPad:20,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
@@ -160,7 +174,7 @@ function update() {
         return tooltip.style("visibility", "visible");
       })
       .on("mousemove", function(d){
-        tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
+        tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
         .duration(200);
 
         console.log(d)
