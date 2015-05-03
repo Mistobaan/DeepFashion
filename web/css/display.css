@@ -1,11 +1,43 @@
+/*Sample Image section*/
+#container {
+    overflow: hidden;
+}
+
 #database_head {
 	margin: 15px;
+	margin-top: 80px;
 }
 
-#database {
-	height: 450px;
+#database_paragraph {
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	margin-bottom: 20px;
 }
 
+/*Photo Banner*/
+.photobanner {
+    height: 400px;
+    width: 2100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    right: 0px;
+    transition-property: right;
+    transition-duration: 2s;
+}
+ 
+.photobanner:hover {
+	position: relative;
+	right: 300px;
+}
+
+.photobanner img:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+/*Output Section*/
 #output_image {
 	/*background-color: */
     margin: 5px;
@@ -24,103 +56,3 @@
     border-radius: 5px;
 }
 
-.photobanner {
-    height: 400px;
-    width: 1600px;
-    margin-bottom: 80px;
-}
-
-/*keyframe animations*/
-/*.first {
-    -webkit-animation: bannermove 30s linear infinite;
-       -moz-animation: bannermove 30s linear infinite;
-        -ms-animation: bannermove 30s linear infinite;
-         -o-animation: bannermove 30s linear infinite;
-            animation: bannermove 30s linear infinite;
-}*/
- 
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -2125px;
- }
- 
-}
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
- 
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
- 
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
- 
-}
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
- 
-}
-
-.photobanner img {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
- 
-.photobanner img:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
- 
-    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-}
-
-	
-* {margin: 0; padding: 0;}
- 
-body {
-    <!-- src: http://subtlepatterns.com/?p=1045 -->
-    background: url('dark_geometric.png');
-}
- 
-#container {
-    width: 1000px;
-    height: 480px;
-    overflow: hidden;
-    margin: 50px auto;
-}

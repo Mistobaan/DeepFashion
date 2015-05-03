@@ -3,16 +3,57 @@
 function isWhite(d){
   return d[0]>250 && d[1]>250 && d[2]>250
 }
+function arraySwap(array,i,j){
+  var temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+}
 
-function drawOne(id,color,frequency){
+function drawOne(id,colors,frequencies){
   
-  //print out ID
-  // d3.select("body").append("p").text(id);
+  var colorArray = colors.slice();
+  var frequencyArray = frequencies.slice();
+//preprocess color and frequency to the hightest five
+  var color = [], frequency = [];
+  for(var j = 0; j < 5; j++){
+    var maxPos = 0, max = frequencyArray[0];
+    for(var i = 0; i < frequencyArray.length; i++){
+      if(frequencyArray[i] > max){
+          max = frequencyArray[i];
+          maxPos = i;
+      }
+    }
+    color.push(colorArray[maxPos]);
+    colorArray.splice(maxPos,1);
+    frequency.push(frequencyArray[maxPos]);
+    frequencyArray.splice(maxPos,1);
+  }
+
+    //sort 5 elements in terms of color
+  colorDist = function(c1,c2){
+    return Math.pow(c1[0]-c2[0],2) + Math.pow(c1[1]-c2[1],2) + Math.pow(c1[2]-c2[2],2);
+  };
+  var prevColor = [255,255,255];
+  for(var i = 0; i < 5 - 1; i++){
+    var minPos = i;
+    var minDist = colorDist(color[minPos],prevColor);
+    for(var j = i+1; j < 5; j++){
+      var dist = colorDist(color[j],prevColor);
+      if(dist < minDist){
+        minDist = dist;
+        minPos = j;
+      }
+    }
+    arraySwap(color,i,minPos);
+    arraySwap(frequency,i,minPos);
+    prevColor = color[i];
+  }
 
   //set SVG configuration
   var svgConf = {
     //height and width
-    h:150,w:100,xPad:20,yPad:10,barPad:0.1,whiteCut:0.1,brickPad:1
+    h: 200, w:200,xPad:10,yPad:40,barPad:0.1,whiteCut:0.1,brickPad:1
+
   };
   var height = svgConf.h-2*svgConf.yPad, width = svgConf.w-2*svgConf.xPad;
 
@@ -20,7 +61,7 @@ function drawOne(id,color,frequency){
   var xScale = d3.scale.ordinal()
     .domain(d3.range(frequency.length))
     .rangeBands([0,width],svgConf.barPad);
-  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d/2 : d;});
+  var yMax = d3.max(frequency, function(d,i){ return isWhite(color[i]) ? d * svgConf.whiteCut : d;});
   var yScale = d3.scale.linear()
     .domain([0,yMax])
     .range([0,height]);
@@ -39,7 +80,7 @@ function drawOne(id,color,frequency){
   /*.attr("fill", function(d,i){
     return "rgb("+Math.round(color[i][0])+","+Math.round(color[i][1])+","+Math.round(color[i][2])+")";
   })*/
-  .attr("fill","")
+  .attr("fill","#5A5555")
   .attr("class","bar")
   .attr("height",function(d,i){return isWhite(color[i])
                     ? yScale(svgConf.whiteCut*d)  //cut the height of white bars
@@ -51,12 +92,13 @@ function drawOne(id,color,frequency){
                   : svgConf.h-svgConf.yPad-yScale(d);});
 
   //draw block
-  var block = svg.selectAll("block").data(color).enter();
+  var block = svg.selectAll(".block").data(color).enter();
 
   block.append("rect")
   .attr("fill",function(d){
     return "rgb("+Math.round(d[0])+","+Math.round(d[1])+","+Math.round(d[2])+")"
   })
+  .style("stroke","#CCCCCC")
   .attr("height",xScale.rangeBand)
   .attr("width",xScale.rangeBand)
   .attr("x",function(d,i){
@@ -76,7 +118,7 @@ function drawOne(id,color,frequency){
 
 // draw tree
 
-var w = 1000,
+var w = 800,
     h = 800,
     node,
     link,
@@ -90,22 +132,31 @@ var force = d3.layout.force()
 
 
 
-var vis = d3.select("#graphContainer").append("svg:svg")
-    .attr("width", w)
-    .attr("height", h)
+var treeGraph = d3.select("#machineLearning")
+    .append("div").attr("id", "graphContainer");
 
-var tooltip = d3.select("body")
+var vis = treeGraph
+    .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+
+var tooltip = d3.select("#machineLearning")
   .append("div")
   .attr("id", "tooltip")
-  .style("position", "absolute")
-  // .style("z-index", "10")
-  .style("visibility", "hidden");
+  .style("visibility", "hidden");;
+
+var tooltipH = tooltip.append("h2");
+
+var imgContainer = tooltip.append("div")
+  .attr("id", "imgContainer");
 
 var barContainer = tooltip.append("div")
-  .attr("id", "barContainer")
-  .style("position", "relative")
-  .style("left", "50px")
-  .style("top", "10px")
+  .attr("id", "barContainer");
+
+
+
+
 
 root = data;
 root.fixed = true;
@@ -157,32 +208,47 @@ function update() {
       .on("click", click)
       .call(force.drag)
       .on("mouseover", function(d){
+        d3.select(this).attr("r", function(d) { return 2 * size(d);  });
         return tooltip.style("visibility", "visible");
       })
       .on("mousemove", function(d){
-        tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").transition()        
-        .duration(200);
+        // tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px").transition()        
+        // .duration(200);
 
-        console.log(d)
+        if (d.children){
+          id = "bar" + d.name
+          frequency = d.distribution
+          colorDist = d.color
+          tooltipH.html(d.name)
+          imgContainer.html("")
+          barContainer.html("")
+          drawOne(id,colorDist,frequency) 
 
-        category = d.category
-        id = "bar" + d.name
-        frequency = d.distribution
-        color = d.color
-        barContainer.html("")
+        }
+        else {
+          category = d.category
+          id = "bar" + d.name
+          frequency = d.distribution
+          colorDist = d.color
 
-        // barContainer.exit().remove()
-        // barContainer = tooltip.append("div")
-        //   .attr("id", "barContainer")
-        //   .style("position", "relative")
-        //   .style("left", "50px")
-        //   .style("top", "10px")
-        drawOne(id,color,frequency)
+          tooltipH.html(category)
+
+          imgRoot = "http://www.deepfashion.org/image/lg-"
+          imgEnd = ".jpg"
+          imgContainer.html("<img src='" + imgRoot + d.name + imgEnd + "' alt=''>")
+          barContainer.html("")
+          drawOne(id,colorDist,frequency) 
+
+        }
+
+
 
 
         return tooltip
       })
       .on("mouseout", function(d){
+        d3.select(this).attr("r", function(d) { return size(d);  });
+
         return tooltip.style("visibility", "hidden");
       });
 
