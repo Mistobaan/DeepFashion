@@ -17,7 +17,6 @@ class StaticPagesController < ApplicationController
     # file = File.read('myData.json')
     # data_hash = JSON.parse(file)
     # puts data_hash
-
     results = `python python/clothesAdvisor.py`
     puts results
 

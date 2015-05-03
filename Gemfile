@@ -13,7 +13,9 @@ gem 'json'
 gem 'carrierwave'
 gem 'simple_form'
 gem "remotipart", "~> 1.0"
-
+gem "font-awesome-rails"
+gem 'unirest'
+gem 'alchemy-api-rb', :require => 'alchemy_api'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

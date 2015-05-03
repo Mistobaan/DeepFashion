@@ -3,8 +3,13 @@ class PhotosController < ApplicationController
   	@photo = Photo.create(photo_params)
   	respond_to do |format|
   		if @photo.save
-  			format.js
-  		end
+        response = Unirest.get "https://api.zalando.com/articles", headers:{ "Accept" => "application/json" }, parameters:{:category=>"clothing"}
+  		  @list = response.body["content"]
+        @list.each do |item|
+          puts item["id"]
+        end
+        format.js
+      end
   	end
   end
   

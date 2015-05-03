@@ -58,7 +58,7 @@ Tags: responsive, html5 template, one page, landing page, mobile, application, b
 	margin:-100px 0 0 -100px;
 	width:200px;
 	height:200px;
-	background-image: image_url(loader.gif);
+	background-image: image-url(loader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 75px 75px;
@@ -76,7 +76,7 @@ Tags: responsive, html5 template, one page, landing page, mobile, application, b
 }
 
 #statistic-banner { 
-	background-image: image_url("statistic-banner.jpg"); 
+	background-image: image-url("statistic-banner.jpg"); 
 }
 
 #call_to_action { 
